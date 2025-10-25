@@ -39,6 +39,22 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Microsoft.Web.WebView2.WinForms/1.0.3537.50": {
+        "runtime": {
+          "Microsoft.Web.WebView2.WinForms.dll": {
+            "assemblyVersion": "1.0.3537.50",
+            "fileVersion": "1.0.3537.50"
+          }
+        }
+      },
+      "Microsoft.Web.WebView2.Core/1.0.3537.50": {
+        "runtime": {
+          "Microsoft.Web.WebView2.Core.dll": {
+            "assemblyVersion": "1.0.3537.50",
+            "fileVersion": "1.0.3537.50"
+          }
+        }
       }
     }
   },
@@ -61,6 +77,16 @@
       "sha512": ""
     },
     "structIQe Common Library/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.WinForms/1.0.3537.50": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Web.WebView2.Core/1.0.3537.50": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
