@@ -10,7 +10,7 @@
         "dependencies": {
           "Newtonsoft.Json": "13.0.4",
           "OutlookHelperVB": "1.0.0",
-          "structIQe Common Library": "1.0.0.0"
+          "stqcolib": "1.0.0.0"
         },
         "runtime": {
           "structIQe Application Manager.dll": {}
@@ -32,9 +32,9 @@
           }
         }
       },
-      "structIQe Common Library/1.0.0.0": {
+      "stqcolib/1.0.0.0": {
         "runtime": {
-          "structIQe Common Library.dll": {
+          "stqcolib.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -76,7 +76,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "structIQe Common Library/1.0.0.0": {
+    "stqcolib/1.0.0.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
