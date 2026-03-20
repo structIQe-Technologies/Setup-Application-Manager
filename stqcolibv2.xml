@@ -144,6 +144,11 @@ stqcolibv2
 <member name="T:structIQe_Web_Library.SupabaseProxy.RestResult">
  <summary>Simple result tuple for RestRequestCoreAsync / ServiceRequestCoreAsync.</summary>
 </member>
+<member name="M:structIQe_Web_Library.SupabaseProxy.GetStorageSignedUrlAsync(System.String,System.String)">
+ <summary>
+ Gets a short-lived signed URL for a software release in Supabase Storage.
+ </summary>
+</member>
 <member name="M:structIQe_Web_Library.SupabaseProxy.ServiceRequestAsync(System.String,System.Net.Http.HttpMethod,System.String,System.String)">
  <summary>
  Send a request to a module-specific service endpoint (e.g. /api/access/me).
@@ -182,11 +187,6 @@ stqcolibv2
 <member name="M:structIQe_Web_Library.SupabaseProxy.GetSoftwaresOrderedAsync">
  <summary>
  GET /api/licenses/softwares → returns key, name, software_order, version ordered by software_order ASC
- </summary>
-</member>
-<member name="M:structIQe_Web_Library.SupabaseProxy.GetAllSoftwares_ForDownloadAsync">
- <summary>
- SELECT full columns FROM soft_softwares ORDER BY software_order ASC (for software downloads).
  </summary>
 </member>
 <member name="M:structIQe_Web_Library.SupabaseProxy.GetCompanyModuleTreeCacheByCompanyIdAsync(System.Guid)">
